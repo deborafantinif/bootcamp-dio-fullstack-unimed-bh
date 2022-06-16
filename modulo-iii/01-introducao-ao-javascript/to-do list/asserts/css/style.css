@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+main {
+  width: 500px;
+  margin: 50px auto;
+  padding: 60px 30px;
+  border: 1px solid rgb(241, 235, 241);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+/* BUTTON */
+#add-task {
+  background-color: #ecdcf7;
+  border: 1px solid #330042;
+  border-radius: 30px;
+  box-shadow: #6c07be 2px 2px 0 0;
+  color: #6727b1;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 10px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#add-task:hover {
+  background-color: #fff;
+}
+
+#add-task:active {
+  box-shadow: #48099b 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+/* TASKS */
+#todo-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: start;
+  padding-left: 125px;
+}
+
+:checked + label {
+  text-decoration: line-through;
+  color: grey;
+}
