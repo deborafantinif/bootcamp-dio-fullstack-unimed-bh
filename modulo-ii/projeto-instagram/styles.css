@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-color: #FAFAFA;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+#content {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+
+#image img {
+  width: 700px;
+}
+
+/* FORM */
+#form-geral {
+  margin: 0px 8% 0px 0px;
+}
+
+#form-login {
+  background-color: white;
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 2px;
+  padding: 20px 0px;
+  width: 350px;
+}
+
+#form-login-img{
+  margin:  10px 88px;
+  width: 175px;
+}
+
+#form div {
+  margin-top: 20px;
+}
+
+#form .input-form {
+  margin: 10px auto 0px auto;
+}
+
+.input-form, #bottom-form {
+  width: 260px;
+  height: 40px;
+  border-radius: 3px;
+}
+
+.input-form p, #bottom-form p {
+  margin: 0;
+  padding: 12px;
+  font-size: 13px;
+}
+
+.input-form {
+  border: 1px solid rgb(201, 200, 200);
+  color: rgb(173, 173, 173);
+}
+
+#bottom-form {
+  margin: 50px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  background-color: #0195F6;
+}
+
+#or {
+  font-weight: bold;
+  color: rgb(173, 173, 173);
+  padding: 10px 165px;
+}
+
+#facebook {
+  color: #475993;
+  font-weight: bold;
+  text-align: center;
+}
+
+#facebook-img{
+  width: 16px;
+}
+
+#password {
+  color: #212c4e;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+#signup {
+  background-color: white;
+  border: 1px solid rgb(201, 200, 200);
+  width: 350px;
+  margin-top: 20px;
+}
+
+#signup  p{
+  text-align: center;
+  font-size: 12px;
+}
+
+#signup p a{
+  text-decoration: none;
+  color: #0195F6;
+  font-weight: bold;
+}
+
+#download {
+  text-align: center;
+}
+
+.download-img {
+  width: 136px;
+  margin: 0 5px;
+}
+
+/* media queries */
+@media (max-width: 1024px) {
+  #content {
+    width: 90%;
+  }
+}
+
+@media (max-width: 650px) {
+  body {
+      background-color: white;
+  }
+
+  #content {
+    width: 90%;
+  }
+
+  #image img {
+      display: none;
+  }
+
+  #form-geral {
+      width: 100%;
+  }
+}
